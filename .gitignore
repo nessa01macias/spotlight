@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+.turbo/
+
+# OS/IDE/Logs
+.DS_Store
+.vscode/
+.idea/
+*.log
+logs/
+
+# Databases
+*.sqlite
+*.db
+backend/spotlight.db

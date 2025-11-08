@@ -1,0 +1,69 @@
+QSR:
+  name: "Quick Service Restaurant"
+  base_revenue_eur: 1600000
+  target_income_min: 40000
+  target_income_max: 55000
+  target_competitors_per_1k: 1.1
+  optimal_population_density: 8000
+  weights:
+    population: 0.35
+    income: 0.25
+    access: 0.20
+    competition: 0.15
+    walkability: 0.05
+
+FastCasual:
+  name: "Fast Casual"
+  base_revenue_eur: 1900000
+  target_income_min: 45000
+  target_income_max: 65000
+  target_competitors_per_1k: 0.8
+  optimal_population_density: 10000
+  weights:
+    population: 0.30
+    income: 0.30
+    access: 0.20
+    competition: 0.15
+    walkability: 0.05
+
+Coffee:
+  name: "Coffee Shop"
+  base_revenue_eur: 900000
+  target_income_min: 35000
+  target_income_max: 55000
+  target_competitors_per_1k: 1.5
+  optimal_population_density: 12000
+  weights:
+    population: 0.30
+    income: 0.20
+    access: 0.15
+    competition: 0.20
+    walkability: 0.15
+
+CasualDining:
+  name: "Casual Dining"
+  base_revenue_eur: 2200000
+  target_income_min: 50000
+  target_income_max: 75000
+  target_competitors_per_1k: 0.6
+  optimal_population_density: 7000
+  weights:
+    population: 0.25
+    income: 0.35
+    access: 0.20
+    competition: 0.15
+    walkability: 0.05
+
+FineDining:
+  name: "Fine Dining"
+  base_revenue_eur: 3000000
+  target_income_min: 65000
+  target_income_max: 100000
+  target_competitors_per_1k: 0.4
+  optimal_population_density: 6000
+  weights:
+    population: 0.20
+    income: 0.40
+    access: 0.15
+    competition: 0.20
+    walkability: 0.05
