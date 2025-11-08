@@ -7,8 +7,26 @@
 Spotlight is an AI-powered platform that helps restaurant operators make data-driven site selection decisions. By analyzing demographics, competition, transit access, and foot traffic patterns, we predict monthly revenue potential for any location in the world, starting with Finland for the MVP.
 
 **Our Moat:** Proprietary data flywheel. Each restaurant we help becomes a data sensor, capturing actual revenue and performance that makes all future predictions exponentially more accurate. With 100+ restaurants, we'll have prediction accuracy competitors cannot match with public data alone.
-<img width="1725" height="953" alt="image" src="https://github.com/user-attachments/assets/6a126b51-4dfe-4594-ac52-d951bc6073d8" />
+<img width="1727" height="984" alt="image" src="https://github.com/user-attachments/assets/cf2ca884-4576-45e7-b1e5-aaf2b7ef7454" />
 <img width="1719" height="996" alt="image" src="https://github.com/user-attachments/assets/01db195b-19b1-4733-a5a3-34fa7a1668c7" />
+
+## 🤖 The Agent System
+
+Spotlight uses 7 specialized AI agents powered by GPT-4:
+
+1. **GEO Agent** - Validates addresses and geocoding accuracy
+2. **DEMO Agent** - Analyzes demographics vs. target customer profiles
+3. **COMP Agent** - Evaluates competitive landscape and market gaps
+4. **TRANSIT Agent** - Assesses public transit and walkability
+5. **RISK Agent** - Calculates confidence scores and identifies risks
+6. **REVENUE Agent** - Predicts monthly revenue (the core value prop)
+7. **ORCHESTRATOR** - Coordinates all agents and synthesizes recommendations
+
+**Why Agents?**
+- Transparent reasoning: Every score includes "why"
+- Specialization: Each agent focuses on one domain
+- Composable: Easy to add new agents (e.g., Seasonal, Weather)
+- Trust layer: Shows data quality and confidence for each metric
 
 
 ## 🚀 The Business Model
@@ -53,24 +71,6 @@ Spotlight is an AI-powered platform that helps restaurant operators make data-dr
 - Statistics Finland Population Grid - 1km grid population data
 - OpenStreetMap Overpass - POIs, competitors, transit stops
 - HSY - Helsinki metro area 250m grid population
-
-## 🤖 The Agent System
-
-Spotlight uses 7 specialized AI agents powered by GPT-4:
-
-1. **GEO Agent** - Validates addresses and geocoding accuracy
-2. **DEMO Agent** - Analyzes demographics vs. target customer profiles
-3. **COMP Agent** - Evaluates competitive landscape and market gaps
-4. **TRANSIT Agent** - Assesses public transit and walkability
-5. **RISK Agent** - Calculates confidence scores and identifies risks
-6. **REVENUE Agent** - Predicts monthly revenue (the core value prop)
-7. **ORCHESTRATOR** - Coordinates all agents and synthesizes recommendations
-
-**Why Agents?**
-- Transparent reasoning: Every score includes "why"
-- Specialization: Each agent focuses on one domain
-- Composable: Easy to add new agents (e.g., Seasonal, Weather)
-- Trust layer: Shows data quality and confidence for each metric
 
 ## 📊 How It Works
 
